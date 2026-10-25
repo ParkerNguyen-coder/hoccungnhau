@@ -1,0 +1,45 @@
+/* ==========================================================================
+   RESPONSIVE DESIGN MEDIA QUERIES
+   ========================================================================== */
+
+@media (max-width: 992px) {
+  .site-header {
+    padding: 0 20px;
+  }
+  
+  .hero-title {
+    font-size: 2.2rem;
+  }
+  
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .site-header {
+    height: auto;
+    padding: 15px 20px;
+    flex-wrap: wrap;
+  }
+  
+  .nav-menu {
+    width: 100%;
+    order: 3;
+    overflow-x: auto;
+    padding: 10px 0;
+    justify-content: flex-start;
+  }
+  
+  .hero-section {
+    padding: 100px 20px 40px;
+  }
+  
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .modal-box {
+    padding: 24px;
+  }
+}
